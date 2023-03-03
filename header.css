@@ -1,0 +1,60 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  position: fixed;
+    
+
+
+}
+.pfp{
+  height:50px;
+  border-radius: 50%;
+  margin-left: 25px;
+  margin-right: 25px;
+
+}
+.apps{
+ 
+  
+  height:40px;
+  fill: #9aa0a6;
+   
+
+
+}
+.left{
+ 
+  flex: 1;
+}
+.images{
+  color: var(--primary-color);
+  display: inline-block;
+  vertical-align: top;
+  font-size: 17px;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+ margin-left:17px;
+ margin-left: 25px;
+ 
+}
+.gmail{
+  color:var(--primary-color);
+  display: inline-block;
+  vertical-align: top;
+  font-size: 17px;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 25px;
+ 
+}
+
+.right{
+  width: 500px;
+  display: flex;
+   align-items: center;
+  justify-content: end;
+}
+ 

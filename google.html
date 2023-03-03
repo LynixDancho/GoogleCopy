@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html style="    height: 100%;
+margin: 0;
+padding: 0;" lang="en">
+<head>
+ 
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <link rel="stylesheet" href="/header.css">
+  <link rel="stylesheet" href="/google.css">
+
+  <link rel="shortcut icon " type="image/x-icon" href="/img/google-icon.svg" />
+
+ 
+  <title>Google</title>
+</head>
+<body style="  background-color:var(--body-color);  
+ 
+">
+  <div class="header" >
+    <div class="left"></div>
+    
+    <div class="right"> 
+
+      <div class="yeeee">
+        <img  class ="apps" src="img/youtube-apps.svg" alt="">
+      </div>
+        <a class="gmail" href="https://mail.google.com/mail/?authuser=0&ogbl">Gmail</a>
+
+
+
+
+        <div>
+          <a class="images" href="https://www.google.dz/imghp?hl=en&authuser=0&ogbl">Images</a>
+          
+          </div>
+          
+          <div>
+            <img class=pfp src=img/maxresdefault-8402.jpg>
+          </div>
+          
+          
+
+
+
+
+
+
+
+  
+      </div>
+   
+
+
+
+
+  </div>
+  <div class="everything" >
+  <div class="boom">
+   
+    <img id ="black" class="google" src="img/googlelogo_light_color_272x92dp.png">
+    <img id="white" class="Lightgoogle" src="img/google-icon-svg-24.jpg">
+   
+
+  </div>
+
+   
+<div class="idk">
+  <img class="camera" src="/img/téléchargé.svg">
+     <input id="searchInput" class="yeh" type="text" placeholder="">
+   <div class="searcher">
+  
+  
+    <svg focusable="false" class="prr" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <path class="test" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+    </svg>
+  </div>
+
+
+    </div>
+    
+  </div>
+  <div class="peow">
+    
+    <button onclick="Searching()" id="GoogleButton" class="feeling">Google Search</button>
+
+  <a href="https://www.google.com/doodles"> 
+    <button class="feeling">I'm Feeling Lucky!</button>
+  </a>
+  <button id="lightmod"   class="feeling" > Dark/Light</button>
+  </div>
+
+
+
+
+
+
+
+
+
+  <script>
+     
+   const searchInput = document.getElementById("searchInput");
+     function Searching(){
+      const query = searchInput.value;
+      const url = `https://www.google.com/search?q=${query}`;
+      window.location.href = url;
+    }
+    
+    searchInput.addEventListener("keypress" ,function(event){
+      if(event.key === "Enter"){
+        const query = searchInput.value;
+      const url = `https://www.google.com/search?q=${query}`;
+      window.location.href = url;
+
+      }
+    })
+const toggle = document.getElementById('lightmod');
+
+const body = document.querySelector('body');
+
+ const google = document.querySelector('.google');
+
+ const lightgoogle =  document.querySelector('.Lightgoogle');
+toggle.onclick = function(){
+  document.body.classList.toggle("lightmode")
+
+
+
+
+  if (google.style.display === 'none') {
+  google.style.display = 'block';
+  lightgoogle.style.display = 'none';
+} else {
+  google.style.display = 'none';
+  lightgoogle.style.display = 'block';
+}
+
+  
+}
+
+ 
+
+ 
+    
+    
+  </script>
+
+
+</body>
+</html>

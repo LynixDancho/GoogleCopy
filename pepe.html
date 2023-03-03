@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Search</title>
+  </head>
+  <body>
+    <input type="text" id="searchTerm" placeholder="Enter search term">
+    <button >Search</button>
+    
+    <script>
+      function searchGoogle() {
+        const searchTerm = document.getElementById("searchTerm").value;
+        const searchUrl = `https://www.google.com/search?q=${searchTerm}`;
+        window.open(searchUrl, "_blank");
+      }
+    </script>
+  </body>
+</html>

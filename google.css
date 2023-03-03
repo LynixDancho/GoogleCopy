@@ -1,0 +1,131 @@
+
+.peow{
+  display: flex;
+  align-items: center;
+   justify-content: center;
+  flex-direction: row;
+  width: 100%;
+   margin-top: -200px;
+}
+.Lightgoogle{
+   
+  margin-bottom: 20px;
+  width: 272px;
+  height: 92px;
+ display: none;
+    
+}
+.google{
+   
+  margin-bottom: 20px;
+   
+}
+ .everything{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  height: 623px;
+  flex-direction: column;
+   width: 100%;
+ }
+ .idk{
+   height: 50px;
+  display: flex;
+  position: relative;
+  border-color: rgb(95, 99, 104);
+  
+  border: 14px;
+  padding:5px 8px 0 14px;   
+  border: 1px solid #5f6368;
+  box-shadow: none;
+  border-radius: 24px;
+  z-index: 3;
+  min-width: 584px;
+  width: 600px
+
+  
+  
+  
+  }
+   
+  
+ 
+
+  .yeh{
+
+    width: 510px;
+     height: 40px;
+    background-color: var(--body-color);
+    border: transparent;
+        
+      bottom: 5px;
+      border-radius: 26 ;
+      color:var(--primary-color);
+      outline: transparent;
+      font-size: 16px;
+    margin-left: 20px;
+      min-width: 384px;
+
+
+}
+
+ 
+  .searcher{
+    
+    position: absolute;
+     left: 9px;
+    top:8px;
+   height: 40px;
+   flex: 1;
+
+     
+
+}
+ .test{
+  fill: #9aa0a6;
+}
+ .prr{
+   left: 5px;
+  top:5px;
+ height: 35px;
+   width: 25px;
+     fill: #9aa0a6;
+
+  }
+  
+   .camera{
+    position: absolute;
+    height: 26px;
+     right: 9px;
+    top: 13px;
+  }
+  .feeling{
+      
+    padding: 10px;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color:var(--secondary-color);
+    border: 1px    #303134 ;
+    color: var(--primary-color);
+    cursor: pointer;
+    margin-right: 20px;
+
+  }
+   
+:root{
+  --primary-color:white;
+   --secondary-color : #303134;
+--body-color: rgb(32, 33, 36);
+
+
+
+
+} 
+ 
+.lightmode{
+  --primary-color:black;
+   --secondary-color : rgb(244, 244, 244);
+--body-color: white;
+  
+}
